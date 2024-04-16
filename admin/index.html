@@ -1,126 +1,13 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-<title>
-Prove codice javascript
-</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width"   initial-scale=1">
-<style>
-* {
-   box-sizing:border-box; 
-}
-boby {
-
-   font-family:Arial; 
-}
-header  {
-
-    background-color:gray;
-    color:white;
-    padding:15px;
-    text-align:center;
-
-
-}
-section {
-
-    display:flex;
-}
-
-nav {
-
-    flex:2;
-    background-color:#bbb;
-}
-
-ul {
-list-style-type:none;
-padding:0px;
-}
-
-ul li a {
- color:white;
- text-decoration:none;
-}
-
-ul li a:hover {
-   color:black; 
-}
-
-article{
-    flex:3;
-    background:rgba(0,125,0,0.4);
-    text-align:center;
-    
-}
-
-footer {
-
-    background-color:gray;
-    color:white;
-    padding:15px;
-    text-align:center;
-}
-</style>
-
-</head>
-
-<body>
-  <!-- Excluding `doctype` and `head` but you should add them -->
-  <!-- Add these scripts to the bottom of the body -->
-  <script src="https://unpkg.com/react@^16/umd/react.production.min.js"></script>
-  <script src="https://unpkg.com/react-dom@^16/umd/react-dom.production.min.js"></script>
-  <script src="https://unpkg.com/netlify-cms-app/dist/netlify-cms-app.js"></script>
-  
-  <!-- Initialize the CMS -->
-  <script>
-    NetlifyCmsApp.init();
-  </script>
- <!-- Excluding `doctype` and `head` but you should add them -->
-
-
-<header>
-<h1> Prove Codice JS</h1>
-</header>
-
-<section>
-<nav>
-<h2> Array e Object </h2>
-<ul>
-
-<li ><a href="# " onclick="scriviHTML('s1h1',mesi[2] )">lettura array</a></li>
-<li><a href="#" onclick="scriviHTML('s1h1',macchina.Modello)">lettura object </a></li>
-<li><a href="#" onclick="scriviHTML('s1h1',leggiProOgg(macchina,'Modello'))">lettura object </a></li>
-<li></li>
-<li></li>
-</ul>
-</nav>
-
-<article>
-<h3 id="s1h1"> Area di output  </h3>
-</article>
-</section>
-<section>
-<nav>
-<h2> titolo </h2>
-<ul>
-<li ><a href="#">Esercio vettori</a></li>
-<li><a href="#">Esercio oggetti </a></li>
-<li></li>
-<li></li>
-</ul>
-</nav>
-
-<article>
-<h3 id="s2h1"> Area di output  </h3>
-</article>
-</section>
-
-<footer>
-<h1> By MC </h2>
-<footer>
-
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Content Manager</title>
+  </head>
+  <body>
+    <!-- Include the script that builds the page and powers Decap CMS -->
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  </body>
 </html>
